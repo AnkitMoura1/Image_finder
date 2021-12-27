@@ -1,6 +1,8 @@
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.lang import builder
+from kivy.lang import Builder
+
+Builder.load_file("Frontend.kv")
 
 
 class FirstScreen(Screen):
